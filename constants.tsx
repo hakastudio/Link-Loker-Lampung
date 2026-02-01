@@ -1,5 +1,5 @@
 
-import { LinkItem, ProductSection } from './types';
+import { LinkItem, ProductSection } from './types.ts';
 
 export const PROFILE_DATA = {
   username: '@lokerlampuung.id',

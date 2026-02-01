@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { LinkItem } from '../types';
+import { LinkItem } from '../types.ts';
 
 interface LinkButtonProps {
   link: LinkItem;
@@ -10,13 +10,10 @@ const LinkButton: React.FC<LinkButtonProps> = ({ link }) => {
   const getStyleClasses = () => {
     switch (link.type) {
       case 'success':
-        // Vibrant glowing gradient for the most important CTA (Pasang Loker)
         return 'bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-600 border-none text-white shadow-[0_0_20px_rgba(34,197,94,0.3)] hover:shadow-[0_0_30px_rgba(34,197,94,0.5)] hover:scale-[1.03] ring-2 ring-white/20';
       case 'primary':
-        // Modern blue to indigo gradient
         return 'bg-gradient-to-r from-blue-600 to-indigo-700 border-none text-white shadow-lg hover:shadow-blue-500/40 hover:scale-[1.02]';
       case 'secondary':
-        // Premium glassmorphism with subtle border glow
         return 'bg-white/5 backdrop-blur-xl border-white/20 text-white hover:bg-white/10 hover:border-white/40 shadow-inner';
       case 'warning':
         return 'bg-gradient-to-r from-amber-400 to-orange-500 border-none text-white shadow-lg';
@@ -47,7 +44,6 @@ const LinkButton: React.FC<LinkButtonProps> = ({ link }) => {
       rel="noopener noreferrer"
       className={`group relative flex items-center justify-center w-full max-w-md p-4 mb-4 transition-all duration-500 border-2 rounded-2xl transform overflow-hidden ${getStyleClasses()}`}
     >
-      {/* Animated Shine Effect */}
       <div className="absolute inset-0 w-1/2 h-full bg-white/10 -skew-x-12 -translate-x-full group-hover:animate-[shine_0.75s_ease-in-out]"></div>
       
       <div className={`absolute left-2.5 flex items-center justify-center w-11 h-11 overflow-hidden rounded-xl transition-all duration-300 group-hover:rotate-12 ${getIconContainerClasses()}`}>

@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import { PROFILE_DATA, ACTION_LINKS, PRODUCT_SECTIONS } from './constants';
-import ProductCard from './components/ProductCard';
-import LinkButton from './components/LinkButton';
+import { PROFILE_DATA, ACTION_LINKS, PRODUCT_SECTIONS } from './constants.tsx';
+import ProductCard from './components/ProductCard.tsx';
+import LinkButton from './components/LinkButton.tsx';
 
 const App: React.FC = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
