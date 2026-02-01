@@ -1,5 +1,5 @@
 
-import { LinkItem, ProductSection } from './types.ts';
+import { LinkItem, ProductSection } from './types';
 
 export const PROFILE_DATA = {
   username: '@lokerlampuung.id',
@@ -50,20 +50,6 @@ export const PRODUCT_SECTIONS: ProductSection[] = [
         store: 'ShopeeFood',
         imageUrl: 'https://images.unsplash.com/photo-1541167760496-16293cb50228?q=80&w=300&h=300&auto=format&fit=crop',
         affiliateUrl: 'https://shope.ee/example'
-      },
-      {
-        id: 'sf3',
-        title: 'Flash Sale Kuliner Lampung Hemat 60%',
-        store: 'ShopeeFood',
-        imageUrl: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=300&h=300&auto=format&fit=crop',
-        affiliateUrl: 'https://shope.ee/example'
-      },
-      {
-        id: 'sf4',
-        title: 'Menu Makan Siang di Bawah 10rb',
-        store: 'ShopeeFood',
-        imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=300&h=300&auto=format&fit=crop',
-        affiliateUrl: 'https://shope.ee/example'
       }
     ]
   },
@@ -84,22 +70,6 @@ export const PRODUCT_SECTIONS: ProductSection[] = [
         price: 'IDR. 49.200',
         store: 'Shopee',
         imageUrl: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=300&h=300&auto=format&fit=crop',
-        affiliateUrl: 'https://shope.ee/example'
-      },
-      {
-        id: 'fp3',
-        title: 'Celana Pendek Chino Canvas Premium',
-        price: 'IDR. 54.900',
-        store: 'Shopee',
-        imageUrl: 'https://images.unsplash.com/photo-1618354691373-d851c5c3a990?q=80&w=300&h=300&auto=format&fit=crop',
-        affiliateUrl: 'https://shope.ee/example'
-      },
-      {
-        id: 'fp4',
-        title: 'Kemeja Flanel Slimfit Modern',
-        price: 'IDR. 89.000',
-        store: 'Shopee',
-        imageUrl: 'https://images.unsplash.com/photo-1565084888279-aff9969bb048?q=80&w=300&h=300&auto=format&fit=crop',
         affiliateUrl: 'https://shope.ee/example'
       }
     ]

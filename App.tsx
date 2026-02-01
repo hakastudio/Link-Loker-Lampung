@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
-import { PROFILE_DATA, ACTION_LINKS, PRODUCT_SECTIONS } from './constants.tsx';
-import ProductCard from './components/ProductCard.tsx';
-import LinkButton from './components/LinkButton.tsx';
+import { PROFILE_DATA, ACTION_LINKS, PRODUCT_SECTIONS } from './constants';
+import ProductCard from './components/ProductCard';
+import LinkButton from './components/LinkButton';
 
 const App: React.FC = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
@@ -35,18 +35,15 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen w-full flex flex-col items-center bg-[#020617] bg-gradient-to-br from-[#020617] via-[#0f172a] to-[#1e1b4b] pb-24 relative overflow-x-hidden">
-      {/* Background Texture & Glows */}
       <div className="fixed inset-0 pointer-events-none opacity-[0.1] bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
       <div className="fixed top-[-10%] left-[-10%] w-[60%] h-[60%] bg-blue-600/10 blur-[150px] rounded-full pointer-events-none"></div>
-      <div className="fixed bottom-[-10%] right-[-10%] w-[60%] h-[60%] bg-indigo-600/10 blur-[150px] rounded-full pointer-events-none"></div>
-
-      {/* Profile Header */}
+      
       <header className="w-full max-w-2xl px-4 pt-12 mb-12 z-20">
         <div className="bg-white/5 backdrop-blur-3xl rounded-[2.5rem] py-6 px-8 flex items-center justify-between border border-white/10 shadow-2xl">
           <div className="flex items-center gap-5">
              <div className="relative">
                <div className="absolute -inset-1 bg-blue-500 rounded-2xl blur opacity-20"></div>
-               <div className="relative w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-indigo-800 flex items-center justify-center text-white shadow-xl transform -rotate-3 transition-transform hover:rotate-0">
+               <div className="relative w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-indigo-800 flex items-center justify-center text-white shadow-xl transform -rotate-3">
                  <span className="text-center font-black text-[14px] leading-tight">LOKER<br/>LPG</span>
                </div>
              </div>
@@ -67,8 +64,6 @@ const App: React.FC = () => {
       </header>
 
       <main className="w-full max-w-4xl px-4 flex flex-col items-center gap-12 z-10">
-        
-        {/* Navigation Links */}
         <section className="w-full max-w-md flex flex-col gap-3">
           {otherActionLinks.map((link) => (
             <LinkButton key={link.id} link={link} />
@@ -80,7 +75,6 @@ const App: React.FC = () => {
           )}
         </section>
 
-        {/* Product Grid Sections */}
         {PRODUCT_SECTIONS.map((section, sIndex) => (
           <section key={sIndex} className="w-full">
             <div className="flex items-center gap-4 mb-8">
@@ -96,10 +90,8 @@ const App: React.FC = () => {
           </section>
         ))}
 
-        {/* About Section */}
         <section id="tentang-kami" className="w-full max-w-2xl mt-8 scroll-mt-24">
           <div className="bg-white/5 backdrop-blur-xl rounded-[3rem] p-10 border border-white/10 shadow-2xl relative overflow-hidden group">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 blur-3xl"></div>
             <div className="flex items-center gap-5 mb-6">
               <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-400 border border-blue-500/20">
                 <i className="fa-solid fa-circle-info text-xl"></i>
@@ -113,17 +105,14 @@ const App: React.FC = () => {
         </section>
       </main>
 
-      {/* Footer */}
       <footer className="mt-24 pb-12 flex flex-col items-center gap-8 opacity-40 hover:opacity-100 transition-opacity">
         <nav className="flex gap-8 text-[11px] font-bold uppercase tracking-widest">
           <button onClick={scrollToAbout} className="hover:text-blue-400 transition-colors">Info</button>
           <button onClick={() => setIsContactOpen(true)} className="hover:text-blue-400 transition-colors">Bantuan</button>
-          <a href="#" className="hover:text-blue-400 transition-colors">Syarat</a>
         </nav>
         <p className="text-[10px] font-bold tracking-[0.3em]">&copy; {new Date().getFullYear()} LOKER LAMPUNG OFFICIAL</p>
       </footer>
 
-      {/* Floating WhatsApp Button */}
       <a 
         href={waLink}
         target="_blank"
@@ -133,7 +122,6 @@ const App: React.FC = () => {
         <i className="fa-brands fa-whatsapp text-3xl"></i>
       </a>
 
-      {/* Contact Modal */}
       {isContactOpen && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/90 backdrop-blur-md">
           <div className="bg-slate-900 border border-white/10 w-full max-w-lg rounded-[2.5rem] p-10 shadow-2xl">
