@@ -3,11 +3,10 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  // Karena menggunakan domain kustom (link.lokerlampung.online), base harus '/'
-  base: '/', 
+  // Vercel bekerja paling baik dengan base '/'
+  base: '/',
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',
     sourcemap: false,
     emptyOutDir: true,
   }

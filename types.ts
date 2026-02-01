@@ -16,6 +16,8 @@ export interface ProductItem {
   store: string;
   imageUrl: string;
   affiliateUrl: string;
+  rating?: number;
+  reviewsCount?: number;
 }
 
 export interface ProductSection {
