@@ -39,37 +39,37 @@ export const PRODUCT_SECTIONS: ProductSection[] = [
     products: [
       {
         id: 'sf1',
-        title: 'Promo ShopeeFood Diskon s.d 50% Mie Gacoan',
-        store: 'ShopeeFood',
-        imageUrl: 'https://images.unsplash.com/photo-1552611052-33e04de081de?q=80&w=300&h=300&auto=format&fit=crop',
-        affiliateUrl: 'https://shope.ee/example',
+        title: 'Stand Holder Phone Kelinci Cute Folding Dekstop Universal Portable',
+        store: 'Shopee',
+        imageUrl: 'https://i.ibb.co.com/qL9FnX3R/sg-11134201-7rblf-lpeyouax5kjqd5-resize-w450-nl.webp',
+        affiliateUrl: 'https://s.shopee.co.id/AKUojMBbR7',
         rating: 4.8,
         reviewsCount: 1250
       },
       {
         id: 'sf2',
-        title: 'Voucher Diskon Janji Jiwa - Cashback 60%',
-        store: 'ShopeeFood',
-        imageUrl: 'https://images.unsplash.com/photo-1541167760496-16293cb50228?q=80&w=300&h=300&auto=format&fit=crop',
-        affiliateUrl: 'https://shope.ee/example',
+        title: 'Ellena Dress Gamis Wanita Rayon Motif Mix Rayon Jaguard Lembut Adem Nyaman Daily Bumil dan Busui Friendly By Irmalaila',
+        store: 'Shopee',
+        imageUrl: 'https://i.ibb.co.com/XfM5DZ8F/id-11134207-82250-mj850p7sabczb6.webp',
+        affiliateUrl: 'https://s.shopee.co.id/2B970pZf4Y',
         rating: 4.9,
         reviewsCount: 840
       },
       {
         id: 'sf3',
-        title: 'Flash Sale Kopi Kenangan - Beli 1 Gratis 1',
-        store: 'ShopeeFood',
-        imageUrl: 'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=300&h=300&auto=format&fit=crop',
-        affiliateUrl: 'https://shope.ee/example',
+        title: 'Emeron Lovely Naturals Hand & Body Lotion Intense Moisturizing 400 ml x3',
+        store: 'Shopee',
+        imageUrl: 'https://i.ibb.co.com/sJHtS2FQ/id-11134201-7ra0u-md2xr0k51vfoc3.webp',
+        affiliateUrl: 'https://s.shopee.co.id/2B9710vChY',
         rating: 4.7,
         reviewsCount: 2100
       },
       {
         id: 'sf4',
-        title: 'Diskon Akhir Bulan Richeese Factory 40%',
-        store: 'ShopeeFood',
-        imageUrl: 'https://images.unsplash.com/photo-1562967914-6cbb048c6f2e?q=80&w=300&h=300&auto=format&fit=crop',
-        affiliateUrl: 'https://shope.ee/example',
+        title: 'OMG - OMBRE BUNDLE LIP SERIES - Lip Tint | Lip Cream | Warna Intense, Tahan Lama & Ringan',
+        store: 'Shopee',
+        imageUrl: 'https://i.ibb.co.com/NdckhwNC/id-11134207-7rase-m2e2g7mywfzt42.webp',
+        affiliateUrl: 'https://s.shopee.co.id/7AXmyKLjqe',
         rating: 4.8,
         reviewsCount: 3500
       }
@@ -80,41 +80,41 @@ export const PRODUCT_SECTIONS: ProductSection[] = [
     products: [
       {
         id: 'g1',
-        title: 'TWS Bluetooth 5.3 Suara Bass Mantap',
-        price: 'IDR. 89.000',
+        title: 'Samsung Galaxy A17 8/128GB - Gray',
+        price: 'IDR.2.948.000',
         store: 'Shopee',
-        imageUrl: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=300&h=300&auto=format&fit=crop',
-        affiliateUrl: 'https://shope.ee/example',
+        imageUrl: 'https://i.ibb.co.com/fdL8v3tn/sg-11134201-81zvn-micqzxjqdm9z21.webp',
+        affiliateUrl: 'https://s.shopee.co.id/7fU3ZSdXRY',
         rating: 4.9,
         reviewsCount: 5400
       },
       {
         id: 'g2',
-        title: 'Powerbank 20.000mAh Fast Charging 22.5W',
-        price: 'IDR. 145.000',
+        title: 'ROBOT Power Bank RT12 RT180S 10000mAh - 3 Output, Dual Input Type-C & Micro, Fast Charging 12W, Slim & Ringan ',
+        price: 'IDR. 99.999',
         store: 'Shopee',
-        imageUrl: 'https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?q=80&w=300&h=300&auto=format&fit=crop',
-        affiliateUrl: 'https://shope.ee/example',
+        imageUrl: 'https://i.ibb.co.com/ZDs248p/id-11134207-82251-mg8uc57kj6kpe3.webp',
+        affiliateUrl: 'https://s.shopee.co.id/LhSq8KrYH',
         rating: 4.8,
         reviewsCount: 12000
       },
       {
         id: 'g3',
-        title: 'Smartwatch Full Screen Waterproof IP68',
-        price: 'IDR. 199.000',
-        store: 'Tokopedia',
-        imageUrl: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=300&h=300&auto=format&fit=crop',
-        affiliateUrl: 'https://tokopedia.link/example',
-        rating: 4.7,
-        reviewsCount: 890
+        title: 'Aolon Curve 3 Ultra Jam Smartwatch 60Hz Amoled 1.93-inci',
+        price: 'IDR. 539.100',
+        store: 'Shopee',
+        imageUrl: 'https://ibb.co.com/zhFPT32V,
+        affiliateUrl: 'https://s.shopee.co.id/7AXmyqmCfh',
+        rating: 4.9,
+        reviewsCount: 4890
       },
       {
         id: 'g4',
-        title: 'Lampu LED Strip RGB 5M Smart Control',
-        price: 'IDR. 45.000',
+        title: 'AZKO Krisbow Travel Adaptor 2 Usb A & 1 Usb C 20 watt Qc',
+        price: 'IDR. 259.100',
         store: 'Shopee',
-        imageUrl: 'https://images.unsplash.com/photo-1565814636199-ae8133055c1c?q=80&w=300&h=300&auto=format&fit=crop',
-        affiliateUrl: 'https://shope.ee/example',
+        imageUrl: 'https://i.ibb.co.com/7x1pGtN7/sg-11134201-7ra13-m4kl8x0fal6w98.webp',
+        affiliateUrl: 'https://s.shopee.co.id/6AfFn7Vn2j',
         rating: 4.9,
         reviewsCount: 25000
       }
