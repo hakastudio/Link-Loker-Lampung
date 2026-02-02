@@ -1,4 +1,3 @@
-
 import { LinkItem, ProductSection } from './types';
 
 export const PROFILE_DATA = {
@@ -81,7 +80,7 @@ export const PRODUCT_SECTIONS: ProductSection[] = [
       {
         id: 'g1',
         title: 'Samsung Galaxy A17 8/128GB - Gray',
-        price: 'IDR.2.948.000',
+        price: 'IDR. 2.948.000',
         store: 'Shopee',
         imageUrl: 'https://i.ibb.co.com/fdL8v3tn/sg-11134201-81zvn-micqzxjqdm9z21.webp',
         affiliateUrl: 'https://s.shopee.co.id/7fU3ZSdXRY',
@@ -90,7 +89,7 @@ export const PRODUCT_SECTIONS: ProductSection[] = [
       },
       {
         id: 'g2',
-        title: 'ROBOT Power Bank RT12 RT180S 10000mAh - 3 Output, Dual Input Type-C & Micro, Fast Charging 12W, Slim & Ringan ',
+        title: 'ROBOT Power Bank RT12 RT180S 10000mAh - Fast Charging 12W, Slim & Ringan',
         price: 'IDR. 99.999',
         store: 'Shopee',
         imageUrl: 'https://i.ibb.co.com/ZDs248p/id-11134207-82251-mg8uc57kj6kpe3.webp',
@@ -103,7 +102,7 @@ export const PRODUCT_SECTIONS: ProductSection[] = [
         title: 'Aolon Curve 3 Ultra Jam Smartwatch 60Hz Amoled 1.93-inci',
         price: 'IDR. 529.100',
         store: 'Shopee',
-        imageUrl: 'https://ibb.co.com/fGVgNtQY',
+        imageUrl: 'https://i.ibb.co.com/DHKzjxkp/1.jpg',
         affiliateUrl: 'https://s.shopee.co.id/7AXmyqmCfh',
         rating: 4.9,
         reviewsCount: 4890
@@ -138,7 +137,7 @@ export const PRODUCT_SECTIONS: ProductSection[] = [
         title: 'Pashmina Kaos Rayon | Pashmina Oman (Turkey Shawl)',
         price: 'IDR. 32.950',
         store: 'Shopee',
-        imageUrl: 'https://i.ibb.co.com/5gbpk5hq/id-11134207-7rask-m1pt3cbdk2pi90.webpp',
+        imageUrl: 'https://i.ibb.co.com/5gbpk5hq/id-11134207-7rask-m1pt3cbdk2pi90.webp',
         affiliateUrl: 'https://s.shopee.co.id/8zzRBYcyY9',
         rating: 4.8,
         reviewsCount: 15400
