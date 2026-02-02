@@ -27,7 +27,7 @@ export const ACTION_LINKS: LinkItem[] = [
   {
     id: '2',
     title: 'Join Community (Telegram/WA)',
-    url: 'https://wa.me/6283161621443?text=Halo%20Admin,%20saya%20ingin%20join%20group%20loker%20lampung',
+    url: 'https://t.me/lokerlampuung',
     icon: 'fa-solid fa-users',
     type: 'secondary',
   },
@@ -101,9 +101,9 @@ export const PRODUCT_SECTIONS: ProductSection[] = [
       {
         id: 'g3',
         title: 'Aolon Curve 3 Ultra Jam Smartwatch 60Hz Amoled 1.93-inci',
-        price: 'IDR. 539.100',
+        price: 'IDR. 529.100',
         store: 'Shopee',
-        imageUrl: 'https://ibb.co.com/zhFPT32V,
+        imageUrl: 'https://ibb.co.com/fGVgNtQY',
         affiliateUrl: 'https://s.shopee.co.id/7AXmyqmCfh',
         rating: 4.9,
         reviewsCount: 4890
@@ -125,41 +125,41 @@ export const PRODUCT_SECTIONS: ProductSection[] = [
     products: [
       {
         id: 'fp1',
-        title: 'Celana Cargo Premium - Best Seller',
-        price: 'IDR. 59.850',
+        title: 'GIRLFASHIONSTORY ORIGINAL CELANA ORO',
+        price: 'IDR. 46.500',
         store: 'Shopee',
-        imageUrl: 'https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=300&h=300&auto=format&fit=crop',
-        affiliateUrl: 'https://shope.ee/example',
+        imageUrl: 'https://i.ibb.co.com/RG4TkzHg/id-11134207-7rbk6-m9btxsnfuo424a.webp',
+        affiliateUrl: 'https://s.shopee.co.id/8pg0z8c2Q1',
         rating: 4.7,
-        reviewsCount: 3200
+        reviewsCount: 5000
       },
       {
         id: 'fp2',
-        title: 'Kaos Polos Cotton Combed 30s Premium',
-        price: 'IDR. 49.200',
+        title: 'Pashmina Kaos Rayon | Pashmina Oman (Turkey Shawl)',
+        price: 'IDR. 32.950',
         store: 'Shopee',
-        imageUrl: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=300&h=300&auto=format&fit=crop',
-        affiliateUrl: 'https://shope.ee/example',
+        imageUrl: 'https://i.ibb.co.com/5gbpk5hq/id-11134207-7rask-m1pt3cbdk2pi90.webpp',
+        affiliateUrl: 'https://s.shopee.co.id/8zzRBYcyY9',
         rating: 4.8,
         reviewsCount: 15400
       },
       {
         id: 'fs1',
-        title: 'Sepatu Sneakers Pria Casual Trendy',
-        price: 'IDR. 125.000',
+        title: 'Remaja Kekinian Outfit Bukber Wanita Hijab',
+        price: 'IDR. 117.808',
         store: 'Shopee',
-        imageUrl: 'https://images.unsplash.com/photo-1560769629-975ec94e6a86?q=80&w=300&h=300&auto=format&fit=crop',
-        affiliateUrl: 'https://shope.ee/example',
+        imageUrl: 'https://i.ibb.co.com/J8xbQRB/id-11134207-7ra0l-mcpujdxotu6w4e.webp',
+        affiliateUrl: 'https://s.shopee.co.id/40alEUSWAK',
         rating: 4.9,
         reviewsCount: 1200
       },
       {
         id: 'fs2',
-        title: 'Hoodie Oversize Unisex Bahan Tebal',
-        price: 'IDR. 85.000',
-        store: 'Tokopedia',
-        imageUrl: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=300&h=300&auto=format&fit=crop',
-        affiliateUrl: 'https://tokopedia.link/example',
+        title: 'One set 3in1 Kemeja Celana Cutbray Jeans Hijab Segi Empat Bella',
+        price: 'IDR. 142.594',
+        store: 'Shopee',
+        imageUrl: 'https://i.ibb.co.com/4RqkxFr2/id-11134207-7ra0m-mbc6zyn9vy6u5b.webp',
+        affiliateUrl: 'https://s.shopee.co.id/2VlxRvftOz',
         rating: 4.8,
         reviewsCount: 4300
       }
